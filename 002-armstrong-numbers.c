@@ -36,11 +36,12 @@ bool is_armstrong_number(int candidate) {
 int main() {
     int candidate = 17;
     bool result = is_armstrong_number(candidate);
+    
     if (result) {
         printf("%d is an armstrong number.", candidate);
     } else {
         printf("%d is not an armstrong number.", candidate);
     }
+
     return 0;
 }
-
