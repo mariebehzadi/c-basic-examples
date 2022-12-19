@@ -27,9 +27,21 @@ int main () {
 
     int arr[3];
     printf("size of int array with 3 elements is: %d \n", sizeof(arr));
-
     double brr[5];
     printf("size of double array with 5 elements is: %d \n", sizeof(brr));
+    printf("------------------------------ \n");
+
+    int *ptr1;
+    int grade1 = 90;
+    ptr1 = &grade1;
+    printf("size of pointer to 90 is: %d \n", sizeof(ptr1)); // 4 for 32 bit system and 8 for 64 bit system
+    printf("------------------------------ \n");
+
+    double *ptr2;
+    double grade2 = 75.5;
+    ptr2 = &grade2;
+    printf("size of pointer to 7.5 is: %d \n", sizeof(ptr2)); // 4 for 32 bit system and 8 for 64 bit system
+    printf("------------------------------ \n");
 
     return 0;
 }
