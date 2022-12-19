@@ -25,5 +25,11 @@ int main () {
     printf("size of double is: %d \n", sizeof(double));
     printf("------------------------------ \n");
 
+    int arr[3];
+    printf("size of int array with 3 elements is: %d \n", sizeof(arr));
+
+    double brr[5];
+    printf("size of double array with 5 elements is: %d \n", sizeof(brr));
+
     return 0;
 }
