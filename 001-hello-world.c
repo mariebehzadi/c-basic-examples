@@ -1,3 +1,8 @@
+// main.c
+// Maryam Behzadi
+// mariebehzadi@gmail.com
+// License: BSD
+
 #include <stdio.h>
 
 int main() {

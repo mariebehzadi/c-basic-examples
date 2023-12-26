@@ -1,3 +1,8 @@
+// main.c
+// Maryam Behzadi
+// mariebehzadi@gmail.com
+// License: BSD
+
 #include <stdio.h>
 #include <stdbool.h>
 #include <math.h> 
