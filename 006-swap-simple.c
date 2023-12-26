@@ -1,4 +1,3 @@
-// main.c
 // Maryam Behzadi
 // mariebehzadi@gmail.com
 // License: BSD

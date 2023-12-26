@@ -1,4 +1,3 @@
-// main.c
 // Maryam Behzadi
 // mariebehzadi@gmail.com
 // License: BSD
@@ -7,7 +6,7 @@
 
 int main() {
    // Just the basic sample of Hello, World!
-   printf("Hello, World!");
+   printf("Hello, World!\n");
 
    return 0;
 }
